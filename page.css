@@ -1,0 +1,47 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(https://source.unsplash.com/1600x900/?nature,water);
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+}
+article{
+    background: rgba(255,255,255,0.5);
+    color: #191919;
+    max-width: 20rem;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    padding: 0.2rem;
+    font-weight: 200;
+}
+.control{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.control a{
+    color: #fff;
+    text-decoration: none;
+}
+.control ul{
+    list-style: none;
+}
+.control li {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+.control>* {
+    display: inline-block;
+}
+.control .player{
+    position: fixed;
+    right: 0;
+}
